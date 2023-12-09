@@ -1,0 +1,25 @@
+header{
+    padding-left: 10rem;
+    background-color: bisque;
+    height: 13rem;
+}
+img{
+    width:  258rem;
+    height: 62rem;
+}
+button{
+    font-size: 80px;
+    width: 20rem;
+    border: 5px solid black;
+    border-radius: 30px;
+    text-align: center;
+    position: relative;
+    left: 200rem;
+    bottom: 150px;
+}
+h1{
+    font-size: 90px;
+    padding-top: 30px;
+    
+
+}
