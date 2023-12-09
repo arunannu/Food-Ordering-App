@@ -1,0 +1,16 @@
+.summary{
+    
+    width: 35rem;
+    border: 1px solid black;
+    border-radius: 25px;
+    margin: auto;
+    padding-left: 10px;
+    color: aliceblue;
+    position: relative;
+    bottom: 20rem;
+}
+p{
+    font-size: large;
+    font-weight: 500;
+    
+}
