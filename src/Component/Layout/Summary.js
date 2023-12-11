@@ -1,6 +1,6 @@
 import React from "react";
 import "./Summary.css";
-import Header from "./Header";
+
 const Summary = () => {
   return (
     <div className="summary">
