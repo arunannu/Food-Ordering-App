@@ -1,0 +1,39 @@
+.cart2 {
+  background-color: antiquewhite;
+  margin: auto;
+  width: 35em;
+  height: 10em;
+  border-radius: 1em;
+}
+.cart1 {
+  margin: auto;
+  width: 35em;
+  height: 10em;
+  position: relative;
+  top: 15em;
+  border-radius: 1em;
+}
+.span1 {
+  font-size: larger;
+  font-weight: 600;
+  position: relative;
+    top: 1.3em;
+  left: 2.5em;
+  background-color: antiquewhite;
+}
+.btn2 {
+  margin: auto;
+  position: relative;
+  width: 5em;
+  left: 17em;
+  color: aliceblue;
+  font-size: larger;
+}
+.btn3 {
+  margin: auto;
+  position: relative;
+  width: 5em;
+  left: 18em;
+  color: aliceblue;
+  font-size: larger;
+}
