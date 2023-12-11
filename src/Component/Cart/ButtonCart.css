@@ -8,14 +8,14 @@
 
 button {
   width: 200px;
-  padding-right: 0;
+  margin-right: 0;
   font: 1.3em sans-serif;
   border: 2px solid black;
   border-radius: 10px;
   background-color: none;
   position: relative;
   bottom: 3.5rem;
-  left: 55rem;
+  left: 800px;
 }
 .yourCart{
     font-size: 20px;

@@ -6,10 +6,6 @@ function App() {
     <div>
       <Header />
       <Items/>
-      <Items/>
-      <Items/>
-      <Items/>
-      <Items/>
     </div>
   );
 }
