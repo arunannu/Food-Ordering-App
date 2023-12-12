@@ -3,6 +3,8 @@
   margin: auto;
   width: 35em;
   height: 10em;
+  transition: all;
+
   border-radius: 1em;
 }
 .cart1 {
@@ -10,7 +12,7 @@
   width: 35em;
   height: 10em;
   position: relative;
-  top: 15em;
+  
   border-radius: 1em;
 }
 .span1 {

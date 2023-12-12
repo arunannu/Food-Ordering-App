@@ -5,12 +5,12 @@ import Summary from "./Summary";
 const header = [
   "https://www.moomoorestaurant.com/brisbane/wp-content/uploads/2016/07/header-image-menu-nbe-2.jpg",
 ];
-const Header = () => {
+const Header = (props) => {
   return (
     <Fragment>
       <header>
         <h1>React Meals</h1>
-        <ButtonCart/>
+        <ButtonCart onClick={props.onShowCart}/>
       </header>
       <div>
         <img src={header} alt="Image of fooding table"style={{width:"100%", height:"500px"}}></img>

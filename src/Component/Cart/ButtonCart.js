@@ -3,10 +3,11 @@ import './ButtonCart.css';
 const cartImg = [
   "https://static.vecteezy.com/system/resources/previews/000/441/347/original/vector-shopping-cart-icon.jpg",
 ];
-const ButtonCart = () => {
+const ButtonCart = (props) => {
+
   return (
     <section className="button">
-      <button>
+      <button onClick={props.onClick}>
         <span>
             <img src={cartImg} alt="CartIcan" className="cart"></img>
         </span>
