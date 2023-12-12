@@ -1,5 +1,5 @@
 import React,{Fragment,useState} from 'react'
-
+import CartssProvider from './CartssProvider';
 import Header from "./Component/Layout/Header";
 import Items from "./Component/Meals/Items";
 import Cart from "./Component/Cart/Cart";
@@ -12,11 +12,12 @@ function App() {
     setCartIsShown(false)
   }
   return (
-    <Fragment>
-      { cartIsShown && <Cart onClose={hideCartHandler} /> }
+    <CartssProvider>
+      {/* { cartIsShown && <Cart onClose={hideCartHandler} /> }<hr/> */}
       <Header onShowCart ={showCartHandler} />
+      { cartIsShown && <Cart onClose={hideCartHandler} /> }
       <Items/>
-    </Fragment>
+    </CartssProvider>
   );
 }
 

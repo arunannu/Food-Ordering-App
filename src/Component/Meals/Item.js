@@ -1,15 +1,29 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import './Items.css';
+
 import Form from './Form';
+import CartssContext from '../../CartssContext';
+
 const Item = (props) => {
+  const cartCtx = useContext(CartssContext);
+
+  const addToCartHandler = (amount) => {
+    cartCtx.addItem({
+      id: props.id,
+      food: props.food,
+      amount: amount,
+      price: props.price,
+    });
+  };
+
   return (
     <div className="item">
       <h2>{props.food}</h2>
-      <p className="itemDescription">{props.type}</p>
+      <p className="itemDescription">{props.discription}</p>
       <div className="amountItem">
-        <h2>${props.amount}</h2>
+        <h2>${props.price}</h2>
       </div>
-      <Form/>
+      <Form onAddToCart={addToCartHandler} />
     </div>
   );
 };
