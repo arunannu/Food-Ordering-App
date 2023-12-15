@@ -9,11 +9,11 @@ const Header = (props) => {
   return (
     <Fragment>
       <header>
-        <h1>React Meals</h1>
+        <h1>Restaurant Meals</h1>
         <ButtonCart onClick={props.onShowCart}/>
       </header>
       <div>
-        <img src={header} alt="Image of fooding table"style={{width:"100%", height:"500px"}}></img>
+        <img src={header} style={{width:"100%", height:"500px"}}></img>
         <Summary/>
       </div>
     </Fragment>
