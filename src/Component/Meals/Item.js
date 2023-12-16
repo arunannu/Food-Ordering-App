@@ -7,7 +7,7 @@ const Item = (props) => {
   const addToCartHandler = (amount) => {
     cartCtx.addItem({
       id: props.id,
-      food: props.food,
+      medicine: props.medicine,
       amount: amount,
       price: props.price,
     });
@@ -15,7 +15,7 @@ const Item = (props) => {
 
   return (
     <div className="item">
-      <h2>{props.food}</h2>
+      <h2>{props.medicine}</h2>
       <p className="itemDescription">{props.discription}</p>
       <div className="amountItem">
         <h2>₹{props.price}</h2>

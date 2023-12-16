@@ -6,13 +6,13 @@
   max-height: 10em;
 
   position: relative;
-  bottom: 45em;
+  /* bottom: 45em; */
   border: solid black 2px;
 
   aspect-ratio: 3/1;
   overflow: scroll;
-  /* overflow-y: scroll; */
-  /* scroll-snap-type: y mandatory; */
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
 }
 
 .span1 {
@@ -72,7 +72,7 @@ li {
   border: 2px solid black;
 }
 .divv {
-  background-color: red;
+  
   height: 0px;
   position: relative;
   bottom: 20px;
@@ -91,7 +91,7 @@ li {
   left: 150px;
 }
 .cartAmount {
-  background-color: blue;
+ 
   width: auto;
   height: 33px;
 }

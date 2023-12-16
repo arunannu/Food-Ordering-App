@@ -17,7 +17,7 @@ const Cart = (props) => {
         <li key={item.id}>
           <CartItem
             key={item.id}
-            food={item.food}
+            medicine={item.medicine}
             amount={item.amount}
             price={item.price}
             onRemove={removeItemFromCartHandler.bind(null, item.id)}

@@ -12,7 +12,7 @@ const CartItem = (props) => {
             fontStyle: "italic",
           }}
         >
-          {props.food}
+          {props.medicine}
         </h2>
         <div className="amountDiv">
           <span style={{backgroundColor:"rgb(67, 210, 210)"}}>{price}</span>

@@ -7,7 +7,7 @@
 }
 
 button {
-  width: 200px;
+  width: auto;
   margin-right: 0;
   font: 1.3em sans-serif;
   border: 2px solid black;
@@ -20,12 +20,12 @@ button {
 .yourCart{
     font-size: 20px;
     position: relative;
-    right: 5px;
-    bottom: 5px;
+    right: 4px;
+    bottom: 1px;
     background-color: none;
 }
 .quantity{
     position: relative;
-    left: 18px;
-    bottom: 2px
+    left: px;
+    bottom: px
 }

@@ -14,7 +14,7 @@ function App() {
   return (
     <CartssProvider>
       {/* { cartIsShown && <Cart onClose={hideCartHandler} /> }<hr/> */}
-      <Header onShowCart ={showCartHandler} />
+      <Header onShowCart ={showCartHandler} /><hr style={{border:"1px solid black"}}></hr>
       { cartIsShown && <Cart onClose={hideCartHandler} /> }
       <Items/>
     </CartssProvider>

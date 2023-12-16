@@ -2,18 +2,18 @@ import React, { Fragment } from "react";
 import FoodItem from "./Item";
 
 const Items = () => {
-  const FoodItemData = [
-    { id: "1", food: "Pizza", discription: "Pure veges pizza", price: 121 },
-    { id: "2", food: "Munchurion", discription: "Pure veges munchurian", price: 80 },
-    { id: "3", food: "Burger", discription: "Pure veges burger", price: 40 },
-    { id: "4", food: "Dhosa", discription: "Pure veges dhosa", price: 60 },
-    { id: "5", food: "Paneer", discription: "Pure veges paneer", price: 145 },
+  const Medicines = [
+    { id: "1", medicine: "Atorvastatin", discription: "which treats high cholesterol.", price: 120 },
+    { id: "2", medicine: "Levothyroxine", discription: "which treats hypothyroidism.", price: 800 },
+    { id: "3", medicine: "Metformin", discription: "which treats type 2 diabetes.", price: 400 },
+    { id: "4", medicine: "Lisinopril", discription: "which is an ACE inhibitor for high blood pressure.", price: 600 },
+    { id: "5", medicine: "Amlodipine", discription: "which is a calcium channel blocker for high blood pressure.", price: 1450 },
   ];
-  const meals = FoodItemData.map((item) => (
+  const meals = Medicines.map((item) => (
     <FoodItem
       key={item.id}
       id={item.id}
-      food={item.food}
+      medicine={item.medicine}
       discription={item.discription}
       price={item.price}
     />

@@ -32,7 +32,7 @@ const Form = (props) => {
             max: "5",
             step: "1",
             defaultValue: "1",
-          }}
+          }} 
         />
         <button className="btn">+ Add</button>
         {!amountIsValid && <p>please enter a valid number (1to5)</p>}
